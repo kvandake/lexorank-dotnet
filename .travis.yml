@@ -1,6 +1,7 @@
 language: csharp
-dist: trusty
+dist: xenial
 mono: none
+sudo: required
 dotnet: 2.2
 script:
   - dotnet restore
