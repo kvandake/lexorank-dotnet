@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexoRank", "LexoRank\LexoRank.csproj", "{17A5E136-8AC6-437D-A9EC-648BE7BD2D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexoRank.Tests", "LexoRank.Tests\LexoRank.Tests.csproj", "{949B662B-3972-4BBC-942A-35BAB4659484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17A5E136-8AC6-437D-A9EC-648BE7BD2D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A5E136-8AC6-437D-A9EC-648BE7BD2D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A5E136-8AC6-437D-A9EC-648BE7BD2D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A5E136-8AC6-437D-A9EC-648BE7BD2D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949B662B-3972-4BBC-942A-35BAB4659484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949B662B-3972-4BBC-942A-35BAB4659484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949B662B-3972-4BBC-942A-35BAB4659484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
