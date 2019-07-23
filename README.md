@@ -1,6 +1,11 @@
 # LexoRank on C#
 A reference implementation of a list ordering system like [JIRA's Lexorank algorithm](https://www.youtube.com/watch?v=OjQv9xMoFbg).
 
+[![Build Status](https://travis-ci.org/kvandake/lexorank-dotnet.svg?branch=master)](https://travis-ci.org/kvandake/lexorank-dotnet)
+
+[![NuGet version](https://badge.fury.io/nu/LexoRank.svg)](https://badge.fury.io/nu/LexoRank)
+
+
 ## Getting Started
 
 > Install-Package LexoRank
