@@ -1,0 +1,10 @@
+language: csharp
+solution: LexoRank.sln
+install:
+  - curl -L -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
+  - mono nuget.exe restore LexoRank.sln
+script:
+  - xbuild /p:Configuration=Release LexoRank.sln
+  - mono nuget.exe pack ./LexoRank.nuspec
+  - mono nuget.exe setApiKey $NUGET_API_KEY -Source $NUGET_SOURCE -Verbosity quiet
+  - mono nuget.exe push LexoRank.*.nupkg -Source $NUGET_SOURCE

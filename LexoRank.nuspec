@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LexoRank</id>
+    <version>$version$</version>
+    <title>LexoRank</title>
+    <authors>kvandake</authors>
+    <owners>kvandake</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/kvandake/lexorank-dotnet/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/kvandake/lexorank-dotnet</projectUrl>
+    <repositoryUrl>https://github.com/kvandake/lexorank-dotnet</repositoryUrl>
+    <description>A reference implementation of a list ordering system like JIRA's Lexorank algorithm.</description>
+    <summary>LexoRank</summary>
+    <releaseNotes>LexoRank</releaseNotes>
+    <copyright></copyright>
+    <language>en</language>
+    <tags>lexorank,rank,jira</tags>
+    <dependencies>
+      <group targetFramework="netstandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="LexoRank/bin/Release/netstandard2.0/LexoRank.*" target="lib\netstandard2.0" />
+  </files>
+</package>
