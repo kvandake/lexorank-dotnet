@@ -6,4 +6,4 @@ script:
   - dotnet restore
   - dotnet test LexoRank.Tests/LexoRank.Tests.csproj
   - dotnet pack -c Release /p:Version=1.0.$TRAVIS_BUILD_NUMBER
-  - dotnet nuget push *.nupkg -k $NUGET_API_KEY
+  - dotnet nuget push *.nupkg -k $NUGET_API_KEY -s https://api.nuget.org/v3/index.json
