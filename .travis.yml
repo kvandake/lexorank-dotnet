@@ -5,5 +5,5 @@ dotnet: 2.0.0
 script:
   - dotnet restore
   - dotnet test LexoRank.Tests/LexoRank.Tests.csproj
-  - dotnet pack -c Release
+  - dotnet pack -c Release /p:Version=1.0.$TRAVIS_BUILD_NUMBER
   - dotnet nuget push *.nupkg -k $NUGET_API_KEY
